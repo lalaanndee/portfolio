@@ -3,7 +3,6 @@ h1 {
   color: magenta;
   font-size: 75px;
   font-family: Koushan Script, cursive;
-  padding-top: 40px;
 }
 h2 {
   text-align: center;
@@ -11,9 +10,12 @@ h2 {
 body {
   background-color: lavender;
 }
+h4 {
+  text-align: right;
+}
 .intro {
   font-size: 50px;
-  padding-top: 100px;
+  padding-top: 195px;
   margin-left: 20px;
   display: block;
 }
