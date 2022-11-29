@@ -27,3 +27,9 @@ body {
   max-width: 200px;
   margin-top: 60px;
 }
+.cat-project {
+  max-width: 500px;
+}
+.weather-app {
+  max-width: 500px;
+}
