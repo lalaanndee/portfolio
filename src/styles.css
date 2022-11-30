@@ -7,12 +7,17 @@ h1 {
 h2 {
   text-align: center;
 }
+h3 {
+  margin-top: 50px;
+}
 body {
   background-color: lavender;
 }
 h4 {
   text-align: right;
+  margin-top: 50px;
 }
+
 .intro {
   font-size: 50px;
   padding-top: 195px;
@@ -31,7 +36,32 @@ h4 {
 }
 .cat-project {
   max-width: 500px;
+  border-radius: 10px;
+  margin-top: 50px;
 }
 .weather-app {
   max-width: 500px;
+  margin-left: 130px;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+#weather {
+  margin-left: 350px;
+  text-align: right;
+}
+@media (max-width: 600px) {
+  .cat-project,
+  .weather-app {
+    max-width: 300px;
+  }
+  .cat {
+    margin-top: 75px;
+  }
+  .intro {
+    padding-top: 20px;
+  }
+  p {
+    position: relative;
+  }
 }
