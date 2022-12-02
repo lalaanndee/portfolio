@@ -46,6 +46,21 @@ h4 {
   border-radius: 10px;
   margin-bottom: 50px;
 }
+.selfie {
+  max-width: 300px;
+  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto;
+  border: solid;
+  border-radius: 50px;
+  border-width: 40px;
+}
+.about-me {
+  padding-top: 20px;
+}
+.see-project {
+  margin-left: 60px;
+}
 #weather {
   margin-left: 350px;
   text-align: right;
