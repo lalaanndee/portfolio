@@ -53,13 +53,17 @@ h4 {
   margin: 0 auto;
   border: solid;
   border-radius: 50px;
-  border-width: 40px;
+  border-width: 20px;
 }
 .about-me {
   padding-top: 20px;
 }
 .see-project {
   margin-left: 60px;
+}
+.contact-me {
+  display: block;
+  text-align: center;
 }
 #weather {
   margin-left: 350px;
@@ -76,7 +80,7 @@ h4 {
   .intro {
     padding-top: 20px;
   }
-  p {
-    position: relative;
-  }
+}
+p {
+  position: relative;
 }
