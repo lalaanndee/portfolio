@@ -17,7 +17,28 @@ h4 {
   text-align: right;
   margin-top: 50px;
 }
-
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active {
+  color: blue;
+}
 .intro {
   font-size: 50px;
   padding-top: 195px;
@@ -65,20 +86,29 @@ h4 {
   display: block;
   text-align: center;
 }
+.logo {
+  max-height: 40px;
+}
+
 #weather {
   margin-left: 350px;
   text-align: right;
 }
 @media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
   .cat-project,
   .weather-app {
     max-width: 300px;
   }
   .cat {
     margin-top: 75px;
+    max-width: 150px;
   }
   .intro {
     padding-top: 20px;
+    font-size: 30px;
   }
 }
 p {
