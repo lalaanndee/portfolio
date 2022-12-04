@@ -23,6 +23,7 @@ nav {
 nav ul {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 nav li {
   display: inline;
@@ -31,14 +32,14 @@ nav li {
   margin-left: 15px;
 }
 nav a {
-  text-decoration: none;
-  color: black;
   transition: all 100ms ease-in-out;
+  color: black;
+  text-decoration: none;
 }
-nav a:hover,
-nav li.active {
+nav a:hover {
   color: blue;
 }
+
 .intro {
   font-size: 50px;
   padding-top: 195px;
@@ -54,6 +55,7 @@ nav li.active {
   display: block;
   max-width: 200px;
   margin-top: 60px;
+  margin-bottom: 30px;
 }
 .cat-project {
   max-width: 500px;
@@ -75,12 +77,16 @@ nav li.active {
   border: solid;
   border-radius: 50px;
   border-width: 20px;
+  max-height: 500px;
 }
 .about-me {
   padding-top: 20px;
 }
 .see-project {
   margin-left: 60px;
+  padding: 20px;
+  font-size: larger;
+  font-weight: bold;
 }
 .contact-me {
   display: block;
@@ -106,6 +112,7 @@ footer .social-links a {
   background: lightsteelblue;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
+  margin-bottom: 60px;
 }
 footer .social-links a:hover {
   color: white;
