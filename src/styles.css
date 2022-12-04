@@ -90,6 +90,27 @@ nav li.active {
   max-height: 40px;
 }
 
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  padding: 20px;
+}
+footer .email-link:hover {
+  color: blue;
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 18px;
+  background: lightsteelblue;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: blue;
+}
 #weather {
   margin-left: 350px;
   text-align: right;
