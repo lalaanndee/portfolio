@@ -1,3 +1,8 @@
+:root {
+  --primary-color: blue;
+  --secondary-color: black;
+  --margin-top: 50px;
+}
 h1 {
   text-align: center;
   color: magenta;
@@ -8,14 +13,14 @@ h2 {
   text-align: center;
 }
 h3 {
-  margin-top: 50px;
+  margin-top: var(--margin-top);
 }
 body {
   background-color: lavender;
 }
 h4 {
   text-align: right;
-  margin-top: 50px;
+  margin-top: var(--margin-top);
 }
 nav {
   padding: 20px 0;
@@ -33,11 +38,11 @@ nav li {
 }
 nav a {
   transition: all 100ms ease-in-out;
-  color: black;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 nav a:hover {
-  color: blue;
+  color: var(--primary-color);
 }
 
 .intro {
@@ -47,7 +52,7 @@ nav a:hover {
   display: block;
 }
 .cat {
-  margin-top: 50px;
+  margin-top: var(--margin-top);
   max-width: 200px;
 }
 .learn-more {
@@ -62,12 +67,12 @@ nav a:hover {
 .cat-project {
   max-width: 500px;
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: var(--margin-top);
 }
 .weather-app {
   max-width: 500px;
   margin-left: 130px;
-  margin-top: 50px;
+  margin-top: var(--margin-top);
   border-radius: 10px;
   margin-bottom: 50px;
 }
@@ -85,8 +90,7 @@ nav a:hover {
   padding-top: 20px;
 }
 .see-project {
-  margin-left: 60px;
-  padding: 20px;
+  margin-left: 300px;
   font-size: larger;
   font-weight: bold;
 }
@@ -100,12 +104,12 @@ nav a:hover {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--secondary-color);
   font-size: 24px;
   padding: 20px;
 }
 footer .email-link:hover {
-  color: blue;
+  color: var(--primary-color);
 }
 footer .social-links a {
   margin: 0 20px;
@@ -118,12 +122,17 @@ footer .social-links a {
 }
 footer .social-links a:hover {
   color: white;
-  background: blue;
+  background: var(--primary-color);
 }
 #weather {
   margin-left: 350px;
   text-align: right;
 }
+#student {
+  max-width: 300px;
+  margin-left: 100px;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 40px;
@@ -140,7 +149,4 @@ footer .social-links a:hover {
     padding-top: 20px;
     font-size: 30px;
   }
-}
-p {
-  position: relative;
 }
