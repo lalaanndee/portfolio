@@ -71,7 +71,6 @@ nav a:hover {
 }
 .weather-app {
   max-width: 500px;
-  margin-left: 130px;
   margin-top: var(--margin-top);
   border-radius: 10px;
   margin-bottom: 50px;
@@ -101,7 +100,9 @@ nav a:hover {
 .logo {
   max-height: 40px;
 }
-
+.logo-small {
+  background: lavender;
+}
 footer .email-link {
   text-decoration: none;
   color: var(--secondary-color);
@@ -125,7 +126,6 @@ footer .social-links a:hover {
   background: var(--primary-color);
 }
 #weather {
-  margin-left: 350px;
   text-align: right;
 }
 #student {
@@ -142,7 +142,6 @@ footer .social-links a:hover {
     max-width: 300px;
   }
   .cat {
-    margin-top: 75px;
     max-width: 150px;
   }
   .intro {
